@@ -5,11 +5,12 @@ export const profile = {
   name: 'Kuldeep Kumar',
   role: 'Data Analyst',
   roles: ['Data Analyst', 'Python Developer', 'SQL Specialist', 'Insight Builder'],
-  location: 'Aligarh, Uttar Pradesh, India',
+  location: 'Flat No. 1102, 11th Avenue, Gaur City 2, Greater Noida, UP',
   phone: '+91 7579889544',
+  phone2: '+91 8265973184',
   email: 'kuldeep7579889544@gmail.com',
   summary:
-    "Detail-oriented and analytical Computer Science & Engineering student specializing in Data Analytics. I turn raw, messy datasets into clear, actionable business insight using Python, SQL, and interactive Excel dashboards — backed by a strong academic foundation in relational databases, query optimization, and statistical modeling.",
+    "Detail-oriented and analytical Computer Science & Engineering student specializing in Data Analytics. Skilled in converting raw, complex datasets into clear, actionable business insights using Python, SQL, Power BI, and interactive MS Excel dashboards. Possesses a strong academic foundation in relational database management systems (DBMS), query optimization, and statistical data modeling, eager to contribute analysis and optimization skills to an impact-driven data team.",
   shortBio:
     "Final-year CSE student who finds signal in noisy data. I clean it, model it, and turn it into dashboards people actually use.",
   resumeFile: '/resume/KULDEEP_Data_Analyst_Resume.pdf',
@@ -24,7 +25,7 @@ export const profile = {
 
 export const stats = [
   { label: 'Projects Completed', value: 6, suffix: '+' },
-  { label: 'Certifications', value: 3, suffix: '' },
+  { label: 'Certifications', value: 4, suffix: '' },
   { label: 'GitHub Repositories', value: 12, suffix: '+' },
   { label: 'Technologies Learned', value: 18, suffix: '+' },
 ];
@@ -58,9 +59,19 @@ export const skillCategories = [
   {
     title: 'Visualization & Tools',
     skills: [
+      { name: 'Power BI', level: 78 },
       { name: 'MS Excel (Advanced)', level: 90 },
       { name: 'Pivot Tables & Slicers', level: 88 },
       { name: 'Git / GitHub', level: 75 },
+    ],
+  },
+  {
+    title: 'Core Methodologies',
+    skills: [
+      { name: 'Data Cleaning', level: 90 },
+      { name: 'EDA', level: 85 },
+      { name: 'Statistical Analysis', level: 80 },
+      { name: 'KPI Tracking', level: 82 },
     ],
   },
 ];
@@ -68,7 +79,8 @@ export const skillCategories = [
 // Flat list used for marquee / orbiting tech logos
 export const techStack = [
   'Python', 'SQL', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn',
-  'MS Excel', 'MySQL', 'DBMS', 'Git', 'GitHub', 'Java', 'Statistics',
+  'Power BI', 'MS Excel', 'MySQL', 'DBMS', 'Git', 'GitHub', 'Java',
+  'Data Cleaning', 'EDA', 'KPI Tracking', 'Statistics',
 ];
 
 export const projects = [
@@ -114,7 +126,7 @@ export const projects = [
       'An interactive Excel executive dashboard with pivot tables, dynamic slicers, and conditional formatting that automated monthly regional reporting.',
     longDescription:
       'Consolidated messy, unstructured demographic datasets using advanced Excel lookup functions (INDEX/MATCH, VLOOKUP) and nested logical conditions. Engineered an interactive executive dashboard with functional pivot tables, dynamic slicers, and conditional formatting to monitor key regional indicators — streamlining monthly reporting and cutting manual data-entry effort.',
-    tech: ['MS Excel', 'Pivot Tables', 'INDEX/MATCH'],
+    tech: ['MS Excel', 'Power BI', 'Pivot Tables', 'INDEX/MATCH'],
     category: 'Dashboard',
     github: 'https://github.com/your-username/regional-demographics-dashboard',
     demo: '',
@@ -131,7 +143,7 @@ export const education = {
   degree: 'Bachelor of Technology in Computer Science & Engineering',
   institution: 'Vision Institute of Technology, Aligarh, Uttar Pradesh',
   duration: '2022 – 2026',
-  cgpa: '7+ / 10',
+  cgpa: '6.5+ / 10',
   coursework: [
     'Database Management Systems (DBMS)',
     'Data Structures & Algorithms',
@@ -144,10 +156,18 @@ export const timeline = [
   {
     year: '2026',
     title: 'Final Year B.Tech CSE',
-    subtitle: 'Vision Institute of Technology',
+    subtitle: 'Vision Institute of Technology, Aligarh',
     description:
-      'Completing my degree while building real-world data analytics projects in Python and SQL, and learning the MERN stack on the side.',
+      'Completing B.Tech CSE (2022–2026) while building real-world data analytics projects using Python, SQL, Power BI, and Excel.',
     tag: 'Current',
+  },
+  {
+    year: '2026',
+    title: 'Python & SQL Certifications',
+    subtitle: 'Code With Harry',
+    description:
+      'Completed certifications in Python for Data Analysis & Visualization and Mastering SQL & Relational Databases.',
+    tag: 'Certification',
   },
   {
     year: '2026',
@@ -167,58 +187,138 @@ export const timeline = [
     year: '2025',
     title: 'Regional Demographics Dashboard',
     subtitle: 'Independent Project',
-    description: 'Built an interactive Excel dashboard with pivot tables and slicers for regional KPI tracking.',
+    description: 'Built an interactive Excel + Power BI dashboard with pivot tables and slicers for regional KPI tracking.',
     tag: 'Project',
+  },
+  {
+    year: '2025',
+    title: 'Advanced Excel for Data Analytics',
+    subtitle: 'Self-Guided',
+    description: 'Completed self-guided advanced Excel training covering VLOOKUP, INDEX/MATCH, Pivot Tables, and dashboards.',
+    tag: 'Certification',
+  },
+  {
+    year: '2024',
+    title: 'Diploma in Laptop Hardware & Repairing',
+    subtitle: 'Multitech Institute of Advance Technologies Pvt. Ltd.',
+    description: 'Completed 4-month hands-on diploma in computer hardware, troubleshooting, assembly, and technical support.',
+    tag: 'Certification',
   },
   {
     year: '2022',
     title: 'Started B.Tech CSE',
-    subtitle: 'Vision Institute of Technology',
-    description: 'Began my Computer Science & Engineering degree, laying the foundation in DSA, DBMS, and statistics.',
+    subtitle: 'Vision Institute of Technology, Aligarh',
+    description: 'Began Computer Science & Engineering degree, building a foundation in DSA, DBMS, OOP, and Applied Statistics.',
     tag: 'Education',
   },
 ];
 
 export const certifications = [
   {
+    id: 'python-data-analysis',
     title: 'Python for Data Analysis & Visualization',
     issuer: 'Code With Harry',
     year: '2026',
-    skills: ['Python', 'Pandas', 'Matplotlib'],
+    description:
+      'Completed a comprehensive course covering Python for data analysis and visualization using Pandas, NumPy, Matplotlib, and Seaborn — with hands-on projects on real datasets.',
+    skills: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn'],
+    icon: 'BarChart2',
+    color: 'signal',
   },
   {
+    id: 'sql-dbms',
     title: 'Mastering SQL & Relational Databases (DBMS)',
     issuer: 'Code With Harry',
     year: '2026',
-    skills: ['SQL', 'DBMS', 'Joins & Aggregations'],
+    description:
+      'Mastered SQL and relational database concepts including joins, aggregations, subqueries, query optimization, database normalization, and schema design.',
+    skills: ['SQL', 'DBMS', 'Joins', 'Aggregations', 'Query Optimization'],
+    icon: 'Database',
+    color: 'confirm',
   },
   {
+    id: 'advanced-excel',
     title: 'Advanced Excel for Data Analytics',
     issuer: 'Self-Guided',
     year: '2025',
-    skills: ['Excel', 'Pivot Tables', 'Dashboards'],
+    description:
+      'Self-guided study of advanced Excel techniques including VLOOKUP, INDEX/MATCH, Pivot Tables, dynamic slicers, conditional formatting, and interactive dashboard creation.',
+    skills: ['Excel', 'Pivot Tables', 'VLOOKUP', 'INDEX/MATCH', 'Dashboards'],
+    icon: 'Table',
+    color: 'signal',
+  },
+  {
+    id: 'laptop-hardware',
+    title: 'Diploma in Laptop Hardware & Repairing',
+    issuer: 'Multitech Institute of Advance Technologies Pvt. Ltd.',
+    year: '2024',
+    description:
+      'Completed 4-month diploma training in laptop hardware covering computer components, hardware troubleshooting, maintenance, assembly, and technical support.',
+    skills: ['Hardware', 'Troubleshooting', 'Maintenance', 'Assembly', 'Tech Support'],
+    icon: 'Cpu',
+    color: 'confirm',
   },
 ];
 
 export const services = [
   {
-    title: 'Data Cleaning & EDA',
-    description: 'Turning raw, inconsistent datasets into clean, analysis-ready data with clear exploratory insight.',
-    icon: 'Sparkles',
+    title: 'Data Cleaning',
+    description:
+      'Cleaning and preparing raw datasets by handling missing values, duplicates, incorrect data types, formatting issues, and inconsistent data.',
+    icon: 'FilterX',
   },
   {
-    title: 'SQL & Database Design',
-    description: 'Normalized schema design and optimized queries — joins, aggregations, subqueries — built for speed.',
+    title: 'Data Validation',
+    description:
+      'Validating datasets to ensure data accuracy, consistency, completeness, and reliability before analysis.',
+    icon: 'ShieldCheck',
+  },
+  {
+    title: 'Exploratory Data Analysis',
+    description:
+      'Analyzing datasets to identify patterns, trends, relationships, insights, and important business information.',
+    icon: 'Search',
+  },
+  {
+    title: 'Data Analysis',
+    description:
+      'Analyzing structured and unstructured data to extract meaningful insights and support data-driven decision-making.',
+    icon: 'LineChart',
+  },
+  {
+    title: 'Data Visualization',
+    description:
+      'Creating clear and interactive visualizations, charts, graphs, and dashboards to communicate insights effectively.',
+    icon: 'PieChart',
+  },
+  {
+    title: 'SQL Analysis',
+    description:
+      'Using SQL for data querying, filtering, joining tables, aggregating data, and generating business insights.',
     icon: 'Database',
   },
   {
+    title: 'Python for Data Analytics',
+    description:
+      'Using Python and relevant libraries for data cleaning, analysis, automation, and visualization.',
+    icon: 'Code2',
+  },
+  {
     title: 'Dashboard Development',
-    description: 'Interactive Excel dashboards with pivot tables, slicers, and conditional formatting for KPI tracking.',
+    description:
+      'Creating interactive and professional dashboards using tools such as Power BI and Excel.',
     icon: 'LayoutDashboard',
   },
   {
-    title: 'Statistical Analysis',
-    description: 'Applied statistics to validate trends and back business decisions with evidence, not guesswork.',
+    title: 'Excel Data Analysis',
+    description:
+      'Using Excel for data cleaning, analysis, formulas, PivotTables, charts, and reporting.',
+    icon: 'Table',
+  },
+  {
+    title: 'Business Insights & Reporting',
+    description:
+      'Transforming raw data into meaningful insights, reports, KPIs, and actionable recommendations.',
     icon: 'TrendingUp',
   },
 ];

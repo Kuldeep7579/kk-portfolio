@@ -10,6 +10,10 @@ import Skills from './components/sections/Skills';
 import Stats from './components/sections/Stats';
 import Projects from './components/sections/Projects';
 import Experience from './components/sections/Experience';
+import Certifications from './components/sections/Certifications';
+import Services from './components/sections/Services';
+import Contact from './components/sections/Contact';
+import Footer from './components/sections/Footer';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -32,8 +36,11 @@ function App() {
         <Stats />
         <Projects />
         <Experience />
-        {/* More sections added incrementally: Certifications, Services, Testimonials, Contact, Footer */}
+        <Certifications />
+        <Services />
+        <Contact />
       </main>
+      <Footer />
     </ThemeProvider>
   );
 }

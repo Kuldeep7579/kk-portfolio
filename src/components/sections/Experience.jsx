@@ -6,6 +6,7 @@ const tagColors = {
   Current: 'bg-confirm/15 text-confirm',
   Project: 'bg-signal/15 text-signal',
   Education: 'bg-white/10 text-ink-low',
+  Certification: 'bg-yellow-400/10 text-yellow-400',
 };
 
 export default function Experience() {

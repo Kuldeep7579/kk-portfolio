@@ -5,7 +5,7 @@ import Reveal from '../ui/Reveal';
 import TiltCard from '../ui/TiltCard';
 
 const personalDetails = [
-  { icon: MapPin, label: 'Location', value: profile.location },
+  { icon: MapPin, label: 'Location', value: 'Greater Noida, UP' },
   { icon: GraduationCap, label: 'Degree', value: 'B.Tech CSE' },
   { icon: Calendar, label: 'Graduating', value: '2026' },
   { icon: Phone, label: 'Phone', value: profile.phone },
