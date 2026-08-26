@@ -24,7 +24,7 @@ export const profile = {
 };
 
 export const stats = [
-  { label: 'Projects Completed', value: 6, suffix: '+' },
+  { label: 'Projects Completed', value: 7, suffix: '+' },
   { label: 'Certifications', value: 4, suffix: '' },
   { label: 'GitHub Repositories', value: 12, suffix: '+' },
   { label: 'Technologies Learned', value: 18, suffix: '+' },
