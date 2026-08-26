@@ -6,23 +6,23 @@ export default {
     extend: {
       colors: {
         void: {
-          DEFAULT: '#0B0E14',
-          panel: '#121622',
-          line: '#1E2333',
+          DEFAULT: 'rgb(var(--color-void) / <alpha-value>)',
+          panel: 'rgb(var(--color-void-panel) / <alpha-value>)',
+          line: 'rgb(var(--color-void-line) / <alpha-value>)',
         },
         signal: {
-          DEFAULT: '#7C9EFF',
-          dim: '#5A7AD9',
-          glow: '#9FB8FF',
+          DEFAULT: 'rgb(var(--color-signal) / <alpha-value>)',
+          dim: 'rgb(var(--color-signal-dim) / <alpha-value>)',
+          glow: 'rgb(var(--color-signal-glow) / <alpha-value>)',
         },
         confirm: {
-          DEFAULT: '#3DDC97',
-          dim: '#2EB87E',
+          DEFAULT: 'rgb(var(--color-confirm) / <alpha-value>)',
+          dim: 'rgb(var(--color-confirm-dim) / <alpha-value>)',
         },
         ink: {
-          high: '#E8EAF0',
-          low: '#8891A8',
-          faint: '#5C6479',
+          high: 'rgb(var(--color-ink-high) / <alpha-value>)',
+          low: 'rgb(var(--color-ink-low) / <alpha-value>)',
+          faint: 'rgb(var(--color-ink-faint) / <alpha-value>)',
         },
       },
       fontFamily: {

@@ -15,14 +15,40 @@ html {
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background-color: #0B0E14;
-  color: #E8EAF0;
+  --color-void: 11 14 20;
+  --color-void-panel: 18 22 34;
+  --color-void-line: 30 35 51;
+  --color-signal: 124 158 255;
+  --color-signal-dim: 90 122 217;
+  --color-signal-glow: 159 184 255;
+  --color-confirm: 61 220 151;
+  --color-confirm-dim: 46 184 126;
+  --color-ink-high: 232 234 240;
+  --color-ink-low: 136 145 168;
+  --color-ink-faint: 92 100 121;
+  background-color: rgb(var(--color-void));
+  color: rgb(var(--color-ink-high));
   overflow-x: hidden;
+  transition: background-color 300ms ease, color 300ms ease;
 }
 
 body.light {
-  background-color: #F7F8FA;
-  color: #1A1D27;
+  --color-void: 247 248 250;
+  --color-void-panel: 255 255 255;
+  --color-void-line: 220 224 232;
+  --color-signal: 55 92 190;
+  --color-signal-dim: 42 72 153;
+  --color-signal-glow: 73 109 208;
+  --color-confirm: 24 143 91;
+  --color-confirm-dim: 21 119 77;
+  --color-ink-high: 26 29 39;
+  --color-ink-low: 82 91 110;
+  --color-ink-faint: 119 127 143;
+}
+
+body.light .glass,
+body.light .glass-strong {
+  border-color: rgba(26, 29, 39, 0.1);
 }
 
 /* Custom scrollbar */
