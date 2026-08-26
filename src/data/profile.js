@@ -15,11 +15,11 @@ export const profile = {
     "Final-year CSE student who finds signal in noisy data. I clean it, model it, and turn it into dashboards people actually use.",
   resumeFile: '/resume/KULDEEP_Data_Analyst_Resume.pdf',
   social: {
-    github: 'https://github.com/your-username',
-    linkedin: 'https://linkedin.com/in/your-username',
+    github: 'https://github.com/Kuldeep7579',
+    linkedin: 'https://www.linkedin.com/in/kuldeep-kumar-5806b6282/',
     whatsapp: 'https://wa.me/917579889544',
     email: 'mailto:kuldeep7579889544@gmail.com',
-    leetcode: 'https://leetcode.com/your-username',
+    leetcode: 'https://leetcode.com/Kuldeep7579',
   },
 };
 
@@ -94,7 +94,7 @@ export const projects = [
       'Preprocessed transactional retail datasets using Pandas — handling nulls, standardizing schemas, and removing duplicates. Ran exploratory data analysis to map key performance indicators and regional revenue trends, visualizing patterns with Matplotlib and Seaborn to deliver strategic insight for business decisions.',
     tech: ['Python', 'Pandas', 'Matplotlib', 'Seaborn'],
     category: 'Data Analytics',
-    github: 'https://github.com/your-username/ecommerce-sales-analysis',
+    github: 'https://github.com/Kuldeep7579/ecommerce-sales-analysis',
     demo: '',
     metrics: [
       { label: 'Dataset rows cleaned', value: '50K+' },
@@ -111,7 +111,7 @@ export const projects = [
       'Designed and implemented a normalized (3NF) relational database schema for a retail model to reduce data redundancy and maintain referential integrity. Wrote and optimized complex SQL queries — joins, group-by aggregations, subqueries — for instant inventory lookups, cutting data extraction latency for product catalogs and supplier metrics.',
     tech: ['SQL', 'MySQL', 'DBMS'],
     category: 'Database',
-    github: 'https://github.com/your-username/retail-inventory-db',
+    github: 'https://github.com/Kuldeep7579/retail-inventory-db',
     demo: '',
     metrics: [
       { label: 'Normal form', value: '3NF' },
@@ -128,7 +128,7 @@ export const projects = [
       'Consolidated messy, unstructured demographic datasets using advanced Excel lookup functions (INDEX/MATCH, VLOOKUP) and nested logical conditions. Engineered an interactive executive dashboard with functional pivot tables, dynamic slicers, and conditional formatting to monitor key regional indicators — streamlining monthly reporting and cutting manual data-entry effort.',
     tech: ['MS Excel', 'Power BI', 'Pivot Tables', 'INDEX/MATCH'],
     category: 'Dashboard',
-    github: 'https://github.com/your-username/regional-demographics-dashboard',
+    github: 'https://github.com/Kuldeep7579/regional-demographics-dashboard',
     demo: '',
     metrics: [
       { label: 'Manual effort cut', value: 'Major' },
